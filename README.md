@@ -128,4 +128,4 @@ MIT License — free to use, modify, and build on.
 
 🙌 Author
 Tyler Faraon  
-Full‑stack JavaScript engineer focused on clean UI, product thinking, and polished user experiences.
+Full‑stack JavaScript engineer focused on clean UI, product thinking, and polished user experiences.# habitarc
