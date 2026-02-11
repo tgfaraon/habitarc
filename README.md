@@ -45,6 +45,8 @@ HabitArc helps you build consistency through streaks, weekly progress, analytics
 • Category‑based color system
 • Mobile‑friendly layout
 
+## 📸 Screenshots | Dashboard (Light) | Dashboard (Dark) | |-------------------|------------------| | ![Light](./screenshots/dashboard-light.png) | ![Dark](./screenshots/dashboard-dark.png) | | Habit Detail (Light) | Habit Detail (Dark) | |----------------------|---------------------| | ![Light](./screenshots/habit-detail-light.png) | ![Dark](./screenshots/habit-detail-dark.png) |
+
 ### 🛠 Tech Stack
 Area    | Technology
 Frontend| React (CRA)
