@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+⭐ HABITARC — Personal Habit Tracking App
+A clean, modern habit‑tracking app built with React and Tailwind CSS.
+HabitArc helps you build consistency through streaks, weekly progress, analytics, and a distraction‑free interface — all wrapped in a polished light/dark theme.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
 
-## Available Scripts
+✔ Habit Dashboard
 
-In the project directory, you can run:
+• View all habits at a glance
+• Category‑colored habit cards
+• Daily check‑ins
+• Streak indicators
+• Edit & delete actions
 
-### `npm start`
+✔ Habit Detail Analytics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• Current streak
+• Longest streak
+• Total check‑ins
+• First & most recent check‑in
+• Weekly progress (7‑day view)
+• Streak chart (visual timeline)
+• Notes section for reflections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔ Dark Mode
 
-### `npm test`
+• Persistent theme stored in localStorage
+• Fully themed UI (dashboard, cards, analytics, modals, header)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔ Local Persistence
 
-### `npm run build`
+• All habits, history, and notes saved per‑user
+• No backend required for core functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔ Authentication
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Email/password login
+• Protected routes
+• User‑specific habit storage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ Clean, Modern UI
 
-### `npm run eject`
+• Tailwind CSS
+• Smooth transitions
+• Category‑based color system
+• Mobile‑friendly layout
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠 Tech Stack
+Area    | Technology
+Frontend| React (CRA)
+Styling	| Tailwind CSS
+State	| React Context API
+Auth	| Custom email/password auth
+Storage	| LocalStorage
+Routing	| React Router
+Build Tools	| CRACO + PostCSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📁 Project Structure
+src/
+  components/
+    HabitCard.jsx
+    AddHabitModal.jsx
+    Layout.jsx
+    Card.jsx
+  pages/
+    Dashboard.jsx
+    HabitDetail.jsx
+    Login.jsx
+    Register.jsx
+  context/
+    AuthContext.jsx
+  utils/
+    categoryColors.js
+  index.css
+  App.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ⚙️ Installation & Setup
+1. Clone the repo
+git clone https://github.com/yourusername/habitarc-client.git
+cd habitarc-client
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies
+npm install
 
-## Learn More
+3. Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run at:
+http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧠 How It Works
+Habit Storage
 
-### Code Splitting
+Each user’s habits are stored under a unique key:
+habits_<user.email>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Streak Calculation
 
-### Analyzing the Bundle Size
+• Streak increments when the user checks in today
+• Breaks when a day is missed
+• Longest streak is tracked automatically
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Weekly Progress
 
-### Making a Progressive Web App
+• The app builds a 7‑day window (Mon–Sun)
+• Highlights days with check‑ins
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Streak Chart
 
-### Advanced Configuration
+• Builds a timeline from first check‑in → today
+• Visualizes streak clusters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🗺 Roadmap
 
-### Deployment
+Planned Enhancements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+• Monthly heatmap
+• Calendar view
+• Habit reminders
+• Data export/import
+• Cloud sync
+• Profile page
+• More habit categories
+• Animated check‑in feedback
 
-### `npm run build` fails to minify
+📄 License
+MIT License — free to use, modify, and build on.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙌 Author
+Tyler Faraon  
+Full‑stack JavaScript engineer focused on clean UI, product thinking, and polished user experiences.
