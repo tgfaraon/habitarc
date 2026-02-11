@@ -88,7 +88,7 @@ npm start
 The app will run at:
 
 Live Demo
-https://your-vercel-url.vercel.app
+https://https://habitarc-9obc.vercel.app
 
 Local Development
 npm start
