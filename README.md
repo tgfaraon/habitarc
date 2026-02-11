@@ -1,8 +1,8 @@
-⭐ HABITARC — Personal Habit Tracking App
+### ⭐ HABITARC — Personal Habit Tracking App
 A clean, modern habit‑tracking app built with React and Tailwind CSS.
 HabitArc helps you build consistency through streaks, weekly progress, analytics, and a distraction‑free interface — all wrapped in a polished light/dark theme.
 
-🚀 Features
+### 🚀 Features
 
 ✔ Habit Dashboard
 
@@ -45,7 +45,7 @@ HabitArc helps you build consistency through streaks, weekly progress, analytics
 • Category‑based color system
 • Mobile‑friendly layout
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 Area    | Technology
 Frontend| React (CRA)
 Styling	| Tailwind CSS
@@ -55,7 +55,7 @@ Storage	| LocalStorage
 Routing	| React Router
 Build Tools	| CRACO + PostCSS
 
-📁 Project Structure
+### 📁 Project Structure
 src/
   components/
     HabitCard.jsx
@@ -74,7 +74,7 @@ src/
   index.css
   App.js
 
-  ⚙️ Installation & Setup
+### ⚙️ Installation & Setup
 1. Clone the repo
 git clone https://github.com/yourusername/habitarc-client.git
 cd habitarc-client
@@ -91,13 +91,13 @@ Live Demo
 https://https://habitarc-9obc.vercel.app
 ### Demo Login
 Email: demo@habitarc.app
-Password: demo1234
+Password: demo123
 
 Local Development
 npm start
 Runs at: http://localhost:3000
 
-🧠 How It Works
+### 🧠 How It Works
 Habit Storage
 
 Each user’s habits are stored under a unique key:
@@ -119,7 +119,7 @@ Streak Chart
 • Builds a timeline from first check‑in → today
 • Visualizes streak clusters
 
-🗺 Roadmap
+### 🗺 Roadmap
 
 Planned Enhancements:
 
@@ -132,9 +132,9 @@ Planned Enhancements:
 • More habit categories
 • Animated check‑in feedback
 
-📄 License
+### 📄 License
 MIT License — free to use, modify, and build on.
 
-🙌 Author
+### 🙌 Author
 Tyler Faraon  
 Full‑stack JavaScript engineer focused on clean UI, product thinking, and polished user experiences.# habitarc
