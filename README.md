@@ -86,7 +86,13 @@ npm install
 npm start
 
 The app will run at:
-http://localhost:3000
+
+Live Demo
+https://your-vercel-url.vercel.app
+
+Local Development
+npm start
+Runs at: http://localhost:3000
 
 🧠 How It Works
 Habit Storage
