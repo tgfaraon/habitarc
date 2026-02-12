@@ -93,6 +93,9 @@ Local Development
 npm start
 Runs at: http://localhost:3000
 
+Live Demo:
+https://habitarc-9obc.vercel.app/
+
 ### 🧠 How It Works
 Habit Storage
 
