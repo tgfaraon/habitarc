@@ -89,12 +89,6 @@ npm start
 
 The app will run at:
 
-Live Demo
-https://https://habitarc-9obc.vercel.app
-### Demo Login
-Email: demo@habitarc.app
-Password: demo123
-
 Local Development
 npm start
 Runs at: http://localhost:3000
